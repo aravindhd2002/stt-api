@@ -1,0 +1,15 @@
+[project]
+name = "stt-ai4-bharat"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.141.1",
+    "numpy>=2.5.2",
+    "onnxruntime>=1.29.0",
+    "python-multipart>=0.0.32",
+    "torch>=2.13.0",
+    "transformers>=5.16.1",
+    "uvicorn>=0.52.4",
+]
